@@ -52,7 +52,7 @@ v0.4
   password-protected servers (thanks Rebel)
 - Added full Unicode support to the client plugin
 
-Pre-v0.3.4
+Pre-v0.4
 ----------
 
 - Experimental releases with an external client-side program

@@ -25,7 +25,7 @@ Open the solution file (audio.sln) in Microsoft Visual Studio 2010 or higher. Bu
 Download
 --------
 
-The latest binaries for Windows and Linux can be found [here](https://github.com/samp-incognito/samp-audio-client-plugin/releases).
+The latest binaries for Windows and Linux can be found [here](https://github.com/samp-incognito/samp-audio-server-plugin/releases).
 
 Documentation
 -------------

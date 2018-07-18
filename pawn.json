@@ -1,0 +1,23 @@
+{
+    "user": "samp-incognito",
+    "repo": "samp-audio-server-plugin",
+    "resources": [
+        {
+            "name": "^samp-audio-server-plugin-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/audio.so"]
+        },
+        {
+            "name": "^samp-audio-server-plugin-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/audio.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["samp-incognito/samp-audio-server-plugin"]
+    }
+}

@@ -7,14 +7,20 @@
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/audio.so"]
+            "plugins": ["plugins/audio.so"],
+            "files": {
+                "audio.ini": "audio.ini",
+            }
         },
         {
             "name": "^samp-audio-server-plugin-(.*).zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/audio.dll"]
+            "plugins": ["plugins/audio.dll"],
+            "files": {
+                "audio.ini": "audio.ini",
+            }
         }
     ],
     "runtime": {

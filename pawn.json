@@ -9,7 +9,7 @@
             "includes": ["pawno/include"],
             "plugins": ["plugins/audio.so"],
             "files": {
-                "audio.ini": "audio.ini",
+                "audio.ini": "audio.ini"
             }
         },
         {
@@ -19,7 +19,7 @@
             "includes": ["pawno/include"],
             "plugins": ["plugins/audio.dll"],
             "files": {
-                "audio.ini": "audio.ini",
+                "audio.ini": "audio.ini"
             }
         }
     ],

@@ -179,7 +179,7 @@ forward Audio_OnPlayerDisconnect(playerid, reason);
 
 // Native Hook Section
 
-stock Audio_SetPlayerName(playerid, name[])
+stock Audio_SetPlayerName(playerid, const name[])
 {
 	new value = SetPlayerName(playerid, name);
 	if (value > 0)
